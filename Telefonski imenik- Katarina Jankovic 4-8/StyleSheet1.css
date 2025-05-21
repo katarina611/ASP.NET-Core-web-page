@@ -1,0 +1,42 @@
+﻿ .button{
+               background-color: #4CAF50;
+               border:none;
+               color:white;
+               padding:10px;
+               text-align:center;
+               text-decoration:none;
+               display:inline-block;
+               font-size:12px;
+               margin: 4px 2px;
+               cursor:pointer;
+           }
+    .button4{border-radius:12px;}
+    .kontejner{
+        padding:10px;
+        box-sizing:border-box;
+        border-bottom:2px solid#4CAF50;
+        margin-bottom:5px;
+    margin-left: 24px;
+}
+    .body{
+        font: 15px arial,sans-serif;
+    }
+    #korisnici{
+        font-family:"Trebuchet MS",Arial,Arial, Helvetica, sans-serif;
+        border-collapse:collapse;
+        width:100%;
+    }
+    #korisnici td,#korisnici th{
+        border:1px solid #ddd;
+        padding:8px;
+    }
+    #korisnici tr:nth-child(even){background-color:#f2f2f2;}
+    #korisnici tr:hover{background-color:#ddd;}
+    #korisnici th{
+        padding-top:12px;
+        padding-bottom:12px;
+        text-align:left;
+        background-color:#4CAF50;
+        color:white;
+    }
+    
